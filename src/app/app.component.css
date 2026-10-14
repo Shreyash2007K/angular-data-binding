@@ -1,0 +1,36 @@
+.container {
+  text-align: center;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #dd0031;
+}
+
+h2 {
+  color: #333333;
+  margin-top: 25px;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 25px;
+  background-color: #dd0031;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
